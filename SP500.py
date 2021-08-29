@@ -20,6 +20,8 @@ class SP500:
         end = datetime.datetime(2020, 1, 27)
 
         sp500 = web.DataReader(['sp500'], 'fred', start, end)
+        
+        print(sp500)
 
         return sp500
 
