@@ -21,8 +21,6 @@ class SP500:
 
         sp500 = web.DataReader(['sp500'], 'fred', start, end)
 
-        print(sp500)
-
         return sp500
 
 
